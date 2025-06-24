@@ -33,7 +33,7 @@ const Header = () => {
             <header className="text-gray-600 body-font w-4/5 mt-12 rounded-3xl m-auto bg-white shadow-lg px-5 relative">
                 <div className="container mx-auto flex p-5 flex-row items-center justify-between">
                     <Link to="/" className="flex title-font font-medium items-center text-gray-900">
-                        <img className='w-20' src="/src/assets/logo.png" alt="" />
+                        <img className='w-20' src="/src/assets/logo/logo.png" alt="" />
                     </Link>
                     {/* Desktop Nav */}
                     <nav className="md:ml-auto font-medium  flex-wrap items-center text-base justify-center mr-12 hidden md:flex">

@@ -6,7 +6,7 @@ const Hero = () => {
         <div>
             <div className="flex flex-col md:flex-row justify-center overflow-hidden gap-6 md:gap-10 pt-10 md:pt-50 items-center hero h-[100vh] min-h-[600px] bg-[url('/src/assets/(1).png')] bg-cover bg-center bg-no-repeat m-0 p-0 relative before:content-[''] before:absolute before:inset-0 min-w-[100%]">
                 <div className="img relative z-10 flex flex-col items-center md:items-start w-full md:w-auto mb-6 md:mb-0">
-                    <img className="relative z-10 w-48 md:w-sm bottom-0 " src="/src/assets/home-icon.png" alt="" />
+                    <img className="relative z-10 w-48 md:w-sm bottom-0 " src="/src/assets/home/hero.png" alt="" />
                 </div>
                 <div className="text relative z-10 text-white w-full md:w-[50vw] font-medium text-base md:text-lg px-4 md:px-0">
                     <h1 className="relative z-10 text-2xl sm:text-3xl md:text-5xl font-extrabold text-white text-center md:text-left">NYC's TRUSTED ELECTRICAL RENOVATION & INSTALLATION EXPERTS</h1>

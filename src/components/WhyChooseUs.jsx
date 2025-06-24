@@ -49,26 +49,26 @@ const WhyChooseUs = () => {
       </div>
       <div className="icons-box w-full border-4 border-[var(--primary)] rounded-4xl m-auto flex flex-col md:flex-row justify-between flex-wrap py-8 px-4 md:px-10 lg:px-20 gap-6 md:gap-0">
         <div className="icon flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-5 mb-5 md:mb-0 w-full md:w-auto">
-          <img className='w-20 md:w-28' src="/src/assets/satisfaction.png" alt="" />
+          <img className='w-20 md:w-28' src="/src/assets/whychooseus/satisfaction.png" alt="" />
           <h1 className='w-full md:w-80 text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] text-center md:text-left'>100% Satisfaction Guarantee</h1>
         </div>
         <div className="icon flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-5 mb-5 md:mb-0 w-full md:w-auto">
-          <img className='w-20 md:w-28' src="/src/assets/technician.png" alt="" />
+          <img className='w-20 md:w-28' src="/src/assets/whychooseus/technician.png" alt="" />
           <h1 className='w-full md:w-80 text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] text-center md:text-left'>Local Technicians You Can Trust</h1>
         </div>
         <div className="icon flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-5 w-full md:w-auto">
-          <img className='w-20 md:w-28' src="/src/assets/straight.png" alt="" />
+          <img className='w-20 md:w-28' src="/src/assets/whychooseus/straight.png" alt="" />
           <h1 className='w-full md:w-80 text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] text-center md:text-left'>Straight Forward Pricing®</h1>
         </div>
         <div className="icon flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-5 w-full md:w-auto">
-          <img className='w-20 md:w-30' src="/src/assets/emergency.png" alt="" />
+          <img className='w-20 md:w-30' src="/src/assets/whychooseus/emergency.png" alt="" />
           <h1 className='w-full md:w-80 text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] text-center md:text-left'>24/7 Emergency Services</h1>
         </div>
       </div>
 
       <div className="f2 flex flex-col md:flex-row justify-evenly gap-8 md:gap-10 my-16 md:my-30 w-full items-center">
         <div className="left relative w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
-          <img className="w-full max-w-xs md:max-w-md" src="/src/assets/location.png" alt="" />
+          <img className="w-full max-w-xs md:max-w-md" src="/src/assets/whychooseus/location.png" alt="" />
         </div>
         <div className="right w-full md:w-1/2 mt-5 flex flex-col items-center md:items-start">
           <h1 className='text-2xl sm:text-3xl md:text-5xl 2xl:text-5xl font-extrabold w-full md:w-96 text-[var(--primary)] mb-2 capitalize text-center md:text-left'>SERVICE AREA</h1>
