@@ -6,7 +6,7 @@ const MainServices = () => {
         <div className='w-full'>
             <div className="electrical flex flex-col md:flex-row w-full md:w-[80vw] m-auto mt-10 px-4">
                 <div className="img w-full md:w-[50vw] flex flex-col items-center justify-center mb-6 md:mb-0">
-                    <img className="w-full md:w-auto max-w-xs md:max-w-none" src="src/assets/services-icon.png" alt="" />
+                    <img className="w-full md:w-auto max-w-xs md:max-w-none" src="src/assets/service/services-icon.png" alt="" />
                     <button className='w-full md:w-auto mt-4 px-8 py-4 border-2 rounded-[100px] border-[#C80003] text-2xl md:text-[40px] font-extrabold text-[#C80003]'>KEY SERVICES</button>
                 </div>
                 <div className="desc w-full md:w-[50vw] flex flex-col justify-center">
@@ -54,35 +54,35 @@ const MainServices = () => {
                         <ol className='list-none text-white space-y-6'>
                             <li>
                                 <div className="head flex items-start gap-2">
-                                    <img className='w-5 mt-1' src="src/assets/triangle.svg" alt="" />
+                                    <img className='w-5 mt-1' src="src/assets/svgs/triangle.svg" alt="" />
                                     <span className='text-lg md:text-[24px] font-bold'>Panel Replacements:</span>
                                 </div>
                                 <p className='text-base md:text-[20px] font-semibold text-white w-full md:w-md'>200-Amp service for older buildings (fuse-to-breaker conversions)</p>
                             </li>
                             <li>
                                 <div className="head flex items-start gap-2">
-                                    <img className='w-5 mt-1' src="src/assets/triangle.svg" alt="" />
+                                    <img className='w-5 mt-1' src="src/assets/svgs/triangle.svg" alt="" />
                                     <span className='text-lg md:text-[24px] font-bold'>EV Chargers:</span>
                                 </div>
                                 <p className='text-base md:text-[20px] font-semibold text-white w-full md:w-md'>Level 2 installations with Con Edison rebate filing</p>
                             </li>
                             <li>
                                 <div className="head flex items-start gap-2">
-                                    <img className='w-5 mt-1' src="src/assets/triangle.svg" alt="" />
+                                    <img className='w-5 mt-1' src="src/assets/svgs/triangle.svg" alt="" />
                                     <span className='text-lg md:text-[24px] font-bold'>Backup Generators:</span>
                                 </div>
                                 <p className='text-base md:text-[20px] font-semibold text-white w-full md:w-md'>Storm-proof solutions with automatic transfer switches</p>
                             </li>
                             <li>
                                 <div className="head flex items-start gap-2">
-                                    <img className='w-5 mt-1' src="src/assets/triangle.svg" alt="" />
+                                    <img className='w-5 mt-1' src="src/assets/svgs/triangle.svg" alt="" />
                                     <span className='text-lg md:text-[24px] font-bold'>Recessed Lighting:</span>
                                 </div>
                                 <p className='text-base md:text-[20px] font-semibold text-white w-full md:w-md'>IC-rated fixtures for low plaster ceilings</p>
                             </li>
                             <li>
                                 <div className="head flex items-start gap-2">
-                                    <img className='w-5 mt-1' src="src/assets/triangle.svg" alt="" />
+                                    <img className='w-5 mt-1' src="src/assets/svgs/triangle.svg" alt="" />
                                     <span className='text-lg md:text-[24px] font-bold'>Dedicated Circuits:</span>
                                 </div>
                                 <p className='text-base md:text-[20px] font-semibold text-white w-full md:w-md'>For HVAC systems and high-demand appliances</p>
@@ -90,7 +90,7 @@ const MainServices = () => {
                         </ol>
                     </div>
                     <div className="right w-full md:w-1/2 flex flex-col justify-center items-center gap-5 mt-8 md:mt-0">
-                        <img className='w-full md:w-md max-w-xs md:max-w-none' src="src/assets/services-1.png" alt="" />
+                        <img className='w-full md:w-md max-w-xs md:max-w-none' src="src/assets/service/s1.png" alt="" />
                         <p className='text-base md:text-[20px] font-semibold text-white text-center'>"70% of NYC electrical fires originate in outdated panels. Protect your property today."</p>
                         <Link to="/contact" className="w-full md:w-auto inline-flex items-center justify-center bg-white font-bold text-base md:text-[20px] text-[#C80003] border-0 py-2 px-6 md:px-9 focus:outline-none hover:bg-gray-300 rounded-lg mt-4 md:mt-4 text-center">Schedule Your Safety Upgrade Assessment</Link>
                     </div>

@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className="text-white body-font bg-[var(--primary)]">
                 <div className="top flex flex-col md:flex-row justify-around items-center gap-8 md:gap-0 py-10 px-4 md:p-16">
                     <div className="logo mb-4 md:mb-0 flex justify-center md:justify-start w-full md:w-auto">
-                        <img src="/src/assets/logo-white.png" alt="" className="w-32 md:w-auto" />
+                        <img src="/src/assets/logo/logo-white.png" alt="" className="w-32 md:w-auto" />
                     </div>
                     <div className="CTAs flex flex-col items-center md:items-start mb-4 md:mb-0 w-full md:w-auto">
                         <NavLink to="/" className={({ isActive }) =>
@@ -34,10 +34,10 @@ const Footer = () => {
                         <span className='font-semibold text-[16px] text-center md:text-left'>2 Park Ave 29th Fl, New York, NY 10016</span>
                     </div>
                     <div className="icons flex gap-3 justify-center md:justify-start w-full md:w-auto">
-                        <img className='w-10 md:w-12' src="/src/assets/Instagram.svg" alt="" />
-                        <img className='w-10 md:w-12' src="/src/assets/Facebook.svg" alt="" />
-                        <img className='w-10 md:w-12' src="/src/assets/Pinterest.svg" alt="" />
-                        <img className='w-10 md:w-12' src="/src/assets/X.svg" alt="" />
+                        <img className='w-10 md:w-12' src="/src/assets/svgs/Instagram.svg" alt="" />
+                        <img className='w-10 md:w-12' src="/src/assets/svgs/Facebook.svg" alt="" />
+                        <img className='w-10 md:w-12' src="/src/assets/svgs/Pinterest.svg" alt="" />
+                        <img className='w-10 md:w-12' src="/src/assets/svgs/X.svg" alt="" />
                     </div>
                 </div>
 

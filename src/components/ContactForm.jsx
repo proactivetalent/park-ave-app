@@ -8,7 +8,7 @@ const Form = () => {
                 <div className="info flex flex-col md:flex-row gap-6 md:gap-10 w-full">
                     <div className="content w-full md:w-[40%] flex flex-col items-center md:items-start mb-6 md:mb-0">
                         <h1 className='text-[var(--primary)] text-2xl sm:text-4xl md:text-5xl font-extrabold uppercase pb-6 md:pb-10 text-center md:text-left'>Schedule Your Rennovation</h1>
-                        <img className='w-full max-w-xs md:w-auto md:max-w-none' src="src/assets/services1.png" alt="" />
+                        <img className='w-full max-w-xs md:w-auto md:max-w-none' src="src/assets/contact/a2.png" alt="" />
                     </div>
                     <div className="form w-full md:w-[60%] flex justify-center items-center">
                         <ContactForm />
@@ -23,7 +23,7 @@ const Form = () => {
 
             <div className="locations flex flex-col md:flex-row justify-evenly my-10 md:my-30 w-[80vw] m-auto px-4 md:px-0">
                 <div className="left relative flex justify-center items-center mb-6 md:mb-0">
-                    <img className="w-full max-w-xs md:w-md" src="/src/assets/location.png" alt="" />
+                    <img className="w-full max-w-xs md:w-md" src="/src/assets/contact/location.png" alt="" />
                 </div>
                 <div className="right mt-5 w-full md:w-auto flex flex-col items-center md:items-start">
                     <h1 className='text-2xl sm:text-4xl md:text-5xl font-extrabold w-full md:w-96 text-[var(--primary)] mb-2 capitalize text-center md:text-left'>SERVICE AREA</h1>
