@@ -1,2 +1,40 @@
 @import "tailwindcss";
 
+.installation-bg-rotate {
+  position: relative;
+  overflow: hidden;
+}
+.installation-bg-rotate::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url('/assets/service/bg-services.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  /* No transform by default */
+}
+.installation-bg-rotate > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .installation-bg-rotate::before {
+    transform: rotate(90deg) scale(2.5);
+    left: 0;
+    top: 50%;
+    width: 100vh;
+    height: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    transform-origin: center center;
+  }
+  .installation-bg-rotate {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+

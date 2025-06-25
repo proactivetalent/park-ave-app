@@ -44,7 +44,7 @@ const MainServices = () => {
                 <Link to="/contact" className="w-full md:w-auto inline-flex items-center justify-center gradient-button font-bold text-lg md:text-[24px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4 text-center">Transform Your Space with Complimentary Consultation</Link>
             </div>
 
-            <div className="installation w-full bg-[url('/assets/service/bg-services.png')] bg-cover bg-center bg-no-repeat m-0 p-0 relative before:content-[''] before:absolute before:inset-0">
+            <div className="installation installation-bg-rotate w-full mt-10 px-4 py-10">
                 <div className="heading text-center m-auto w-full md:w-[80vw] px-4 md:px-0 pt-10">
                     <h1 className='text-2xl sm:text-3xl md:text-[40px] font-extrabold text-white py-6 md:py-10 capitalize'>INSTALLATIONS & UPGRADES</h1>
                     <p className='text-base sm:text-lg md:text-[20px] font-semibold text-white'>Power your NYC lifestyle with modern electrical systems built for safety and performance. From EV chargers to smart panels, we ensure your upgrades meet strict city codes.</p>
