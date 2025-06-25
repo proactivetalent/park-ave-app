@@ -10,7 +10,7 @@ const HeroAbout = () => {
           <p className='relative z-10 text-white font-medium text-base sm:text-xl md:text-2xl text-center md:text-left mb-6 md:mb-10'>"We don’t just wire buildings – we protect the heartbeat of New York homes."
           </p>
           <p className='relative z-10 w-full md:w-2/3 text-white font-medium text-base sm:text-xl md:text-2xl text-center  mb-6'>NYC-Born. Safety-Driven. Your Trusted Electrical Partner. Licensed Master Electricians solving the city’s toughest wiring challenges – from pre-war brownstones to high-rise condos – with uncompromising integrity and NYC code mastery.</p>
-          <Link to="/contact" className="inline-flex items-center bg-white font-bold text-[var(--primary)] border-0 py-2 px-6 md:px-9 focus:outline-none hover:bg-gray-300 rounded-lg text-base sm:text-xl md:text-[24px] mt-6">GET YOUR FREE QUOTE</Link>
+          <Link to="/contact" className="inline-flex items-center gradient-button font-bold text-black border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg text-base sm:text-xl md:text-[24px] mt-6">GET YOUR FREE QUOTE</Link>
         </div>
       </div>
     </div>

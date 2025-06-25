@@ -33,28 +33,28 @@ const Header = () => {
             <header className="text-gray-600 body-font w-4/5 mt-12 rounded-3xl m-auto bg-white shadow-lg px-5 relative">
                 <div className="container mx-auto flex p-5 flex-row items-center justify-between">
                     <Link to="/" className="flex title-font font-medium items-center text-gray-900">
-                        <img className='w-20' src="/src/assets/logo/logo.png" alt="" />
+                        <img className='w-20' src="/src/assets/logo/logo.svg" alt="" />
                     </Link>
                     {/* Desktop Nav */}
                     <nav className="md:ml-auto font-medium  flex-wrap items-center text-base justify-center mr-12 hidden md:flex">
                         <NavLink to="/" className={({ isActive }) =>
-                            "mr-8 text-[20px] text-[var(--primary)] cursor-pointer transition-transform duration-300 hover:scale-110" +
+                            "mr-8 text-[20px] text-black cursor-pointer transition-transform duration-300 hover:scale-110" +
                             (isActive ? " underline decoration-2 underline-offset-8" : "")
                         }>Home</NavLink>
                         <NavLink to="/services" className={({ isActive }) =>
-                            "mr-8 text-[20px] text-[var(--primary)] cursor-pointer transition-transform duration-300 hover:scale-110" +
+                            "mr-8 text-[20px] text-black cursor-pointer transition-transform duration-300 hover:scale-110" +
                             (isActive ? " underline decoration-2 underline-offset-8" : "")
                         }>Service</NavLink>
                         <NavLink to="/about" className={({ isActive }) =>
-                            "mr-8 text-[20px] text-[var(--primary)] cursor-pointer transition-transform duration-300 hover:scale-110" +
+                            "mr-8 text-[20px] text-black cursor-pointer transition-transform duration-300 hover:scale-110" +
                             (isActive ? " underline decoration-2 underline-offset-8" : "")
                         }>About us</NavLink>
                         <NavLink to="/contact" className={({ isActive }) =>
-                            "mr-8 text-[20px] text-[var(--primary)] cursor-pointer transition-transform duration-300 hover:scale-110" +
+                            "mr-8 text-[20px] text-black cursor-pointer transition-transform duration-300 hover:scale-110" +
                             (isActive ? " underline decoration-2 underline-offset-8" : "")
                         }>Contact us</NavLink>
                     </nav>
-                    <Link to="/contact" className="hidden md:inline-flex items-center bg-[var(--primary)] font-medium text-white border-0 py-2 px-9 focus:outline-none hover:bg-red-900 rounded-lg text-base">Free Quote</Link>
+                    <Link to="/contact" className="hidden md:inline-flex items-center gradient-button font-medium text-white border-0 py-2 px-9 focus:outline-none rounded-lg text-base">Free Quote</Link>
                     {/* Hamburger Icon for mobile */}
                     <button className="md:hidden flex items-center px-3 py-2 border rounded text-[var(--primary)] border-[var(--primary)]" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle Menu">
                         <svg className="fill-current h-7 w-7" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>

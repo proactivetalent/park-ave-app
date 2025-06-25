@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
     return (
         <div>
-            <footer className="text-white body-font bg-[var(--primary)]">
+            <footer className="text-white body-font bg-black">
                 <div className="top flex flex-col md:flex-row justify-around items-center gap-8 md:gap-0 py-10 px-4 md:p-16">
                     <div className="logo mb-4 md:mb-0 flex justify-center md:justify-start w-full md:w-auto">
-                        <img src="/src/assets/logo/logo-white.png" alt="" className="w-32 md:w-auto" />
+                        <img src="/src/assets/logo/logo.svg" alt="" className="w-32 md:w-48" />
                     </div>
                     <div className="CTAs flex flex-col items-center md:items-start mb-4 md:mb-0 w-full md:w-auto">
                         <NavLink to="/" className={({ isActive }) =>

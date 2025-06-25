@@ -3,7 +3,7 @@
     <rect id="Icons" x="0" y="0" width="1280" height="800" style="fill:none;"/>
     <g id="Icons1" serif:id="Icons">
       <g id="circle-filled" transform="matrix(1.70002,0,0,1.70002,-316.778,-246.387)">
-        <circle cx="543.992" cy="352" r="14.13" fill="#C80003"/>
+        <circle cx="543.992" cy="352" r="14.13" fill="#000000"/>
       </g>
     </g>
   </g>

@@ -7,7 +7,7 @@ const Form = () => {
             <div className='w-[80vw] m-auto my-10 flex flex-col md:flex-row px-4 md:px-0'>
                 <div className="info flex flex-col md:flex-row gap-6 md:gap-10 w-full">
                     <div className="content w-full md:w-[40%] flex flex-col items-center md:items-start mb-6 md:mb-0">
-                        <h1 className='text-[var(--primary)] text-2xl sm:text-4xl md:text-5xl font-extrabold uppercase pb-6 md:pb-10 text-center md:text-left'>Schedule Your Rennovation</h1>
+                        <h1 className='gradient-text text-2xl sm:text-4xl md:text-5xl font-extrabold uppercase pb-6 md:pb-10 text-center md:text-left'>Schedule Your Rennovation</h1>
                         <img className='w-full max-w-xs md:w-auto md:max-w-none' src="src/assets/contact/a2.png" alt="" />
                     </div>
                     <div className="form w-full md:w-[60%] flex justify-center items-center">
@@ -17,8 +17,8 @@ const Form = () => {
             </div>
 
             <div className="ctas flex flex-col md:flex-row justify-center gap-5 my-10 md:my-20 px-4 md:px-0">
-                <a href="mailto:info@parkaveelectrical.com" className="inline-flex items-center bg-[var(--primary)] font-semibold text-white border-0 py-4 px-8 md:px-14 focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Email: info@parkaveelectrical.com</a>
-                <a href="tel:+16461234567" className="inline-flex items-center bg-[var(--primary)] font-semibold text-white border-0 py-4 px-8 md:px-14 w-full md:w-auto justify-center focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Call Now: (646) 123-4567</a>
+                <a href="mailto:info@parkaveelectrical.com" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-4 px-8 md:px-14 focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Email: info@parkaveelectrical.com</a>
+                <a href="tel:+16461234567" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-4 px-8 md:px-14 w-full md:w-auto justify-center focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Call Now: (646) 123-4567</a>
             </div>
 
             <div className="locations flex flex-col md:flex-row justify-evenly my-10 md:my-30 w-[80vw] m-auto px-4 md:px-0">
@@ -26,7 +26,7 @@ const Form = () => {
                     <img className="w-full max-w-xs md:w-md" src="/src/assets/contact/location.png" alt="" />
                 </div>
                 <div className="right mt-5 w-full md:w-auto flex flex-col items-center md:items-start">
-                    <h1 className='text-2xl sm:text-4xl md:text-5xl font-extrabold w-full md:w-96 text-[var(--primary)] mb-2 capitalize text-center md:text-left'>SERVICE AREA</h1>
+                    <h1 className='text-2xl sm:text-4xl md:text-5xl font-extrabold w-full md:w-96 gradient-text mb-2 capitalize text-center md:text-left'>SERVICE AREA</h1>
                     <p className='text-lg md:text-[20px] font-semibold mb-5 text-center md:text-left'>Proudly Powering All Five Boroughs</p>
                     <ol className='text-lg md:text-[20px] font-semibold list-decimal pl-6 md:pl-10 mb-6 text-center md:text-left'>
                         <li>Manhattan</li>
@@ -144,7 +144,7 @@ const ContactForm = () => {
                     placeholder='Message'
                 />
             </label>
-            <button type="submit" className="bg-[var(--primary)] text-white font-bold py-2 px-4 rounded hover:bg-red-900 transition">Submit</button>
+            <button type="submit" className="bg-[var(--primary)] text-white font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition">Submit</button>
             {submitted && <div className="text-green-600 font-semibold mt-2">Form submitted successfully!</div>}
         </form>
     );

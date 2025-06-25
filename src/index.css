@@ -2,8 +2,18 @@
 
 body, html {
   font-family: 'Montserrat', sans-serif;
-  --primary: #C80003;
+  /* --primary: #C80003; */
+  /* --gradient: linear-gradient(to right, #FBA102, #956001); */
+  --primary: #FBA102;
+  --secondary: #956001;
+  --gold-gradient: linear-gradient(to right, #FBA102, #956001);
   /* --primary: #FBA102; */
 
 }
 
+.gradient-text {
+  @apply bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] bg-clip-text text-transparent;
+}
+.gradient-button {
+  @apply bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] hover:hover:from-[var(--secondary)] hover:to-[var(--primary)];
+}
