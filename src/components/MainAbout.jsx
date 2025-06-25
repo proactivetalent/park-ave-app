@@ -6,7 +6,7 @@ const MainAbout = () => {
         <div className='main'>
             <div className="w-[85vw] m-auto f1 flex flex-col md:flex-row my-10 md:my-30 gap-7 px-4 md:px-0">
                 <div className="left w-full md:w-auto flex justify-center items-center mb-6 md:mb-0">
-                    <img className='w-full max-w-xs md:max-w-none h-auto' src="src/assets/about/a1.png" alt="" />
+                    <img className='w-full max-w-xs md:max-w-none h-auto' src="public/assets/about/a1.png" alt="" />
                 </div>
                 <div className="right w-full md:w-2/3 flex flex-col justify-center">
                     <div className="heading text-2xl sm:text-4xl md:text-5xl w-full md:w-lg gradient-text font-extrabold uppercase mb-2 md:mb-0">The Current That Drives Us</div>
@@ -29,7 +29,7 @@ const MainAbout = () => {
                     <p className='text-base sm:text-lg md:text-xl font-semibold'>Safety isn't a policy at ParkAve Electrical – it's our culture. Every technician undergoes rigorous OSHA 30 training and annual NEC code updates, ensuring they spot hazards invisible to untrained eyes. We deploy thermal imaging scanners to detect hidden faults behind walls and implement three-stage quality checks on every project. Our adherence to NYC Fire Department and Department of Buildings standards has yielded a long time accident-free record and a 100% first-pass inspection rate. When emergencies strike, our trauma-trained teams respond within 90 minutes, equipped to protect lives and property.</p>
                 </div>
                 <div className="right w-full md:w-1/2 flex justify-center items-center">
-                    <img className='w-full max-w-xs md:max-w-none h-auto' src="src/assets/about/a2.png" alt="" />
+                    <img className='w-full max-w-xs md:max-w-none h-auto' src="public/assets/about/a2.png" alt="" />
                 </div>
             </div>
             <div className="f4 flex flex-col md:flex-row w-full md:w-[80vw] justify-between gap-8 md:gap-30 m-auto py-10 md:py-30 px-4 md:px-0">
