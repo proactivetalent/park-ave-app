@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const HeroAbout = () => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-20 lg:gap-44 md:pt-30 hero h-[100vh] bg-[url('/public/assets/about/hero-about.png')] bg-cover bg-center bg-no-repeat m-0 p-0 relative before:content-[''] before:absolute before:inset-0 px-4 md:px-0">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-20 lg:gap-44 md:pt-30 hero h-[100vh] bg-[url('/assets/about/hero-about.png')] bg-cover bg-center bg-no-repeat m-0 p-0 relative before:content-[''] before:absolute before:inset-0 px-4 md:px-0">
         <div className="flex flex-col items-center text relative z-10 text-white font-medium w-full md:w-auto text-center md:text-left px-2 md:px-0">
           <h1 className="relative z-10 text-2xl sm:text-4xl md:text-[64px] 2xl:text-[64px] font-bold text-white capitalize mb-4 md:mb-0">ABOUT PARK AVE</h1>
           <p className='relative z-10 text-white font-medium text-base sm:text-xl md:text-2xl text-center md:text-left mb-6 md:mb-10'>"We don’t just wire buildings – we protect the heartbeat of New York homes."

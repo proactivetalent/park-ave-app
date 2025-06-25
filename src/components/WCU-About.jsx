@@ -13,7 +13,7 @@ const WCUAbout = () => {
             <div className="g1 flex flex-col pl-0 md:pl-10">
               {/* <h1 className='text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] mb-3'>Why Choose NYC-Specific Expertise</h1> */}
               <div className="head flex items-start gap-3">
-                <img className='w-4 md:w-7 mt-1' src="public/assets/svgs/bullet-point.svg" alt="" />
+                <img className='w-4 md:w-7 mt-1' src="/assets/svgs/bullet-point.svg" alt="" />
                 <span className='text-lg sm:text-2xl md:text-3xl font-bold gradient-text mb-3'>Knob-and-tube in brownstones.</span>
               </div>
             </div>
@@ -22,7 +22,7 @@ const WCUAbout = () => {
             <div className="g2 flex flex-col pl-0 md:pl-10">
               {/* <h1 className='text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] mb-3'>Safety-First Philosophy</h1> */}
               <div className="head flex items-start gap-3">
-                <img className='w-4 md:w-7 mt-1' src="public/assets/svgs/bullet-point.svg" alt="" />
+                <img className='w-4 md:w-7 mt-1' src="/assets/svgs/bullet-point.svg" alt="" />
                 <span className='text-lg sm:text-2xl md:text-3xl font-bold gradient-text mb-3'>DOB violations in high-rises.</span>
               </div>
             </div>
@@ -31,7 +31,7 @@ const WCUAbout = () => {
             <div className="g3 flex flex-col pl-0 md:pl-10">
               {/* <h1 className='text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] mb-3'>Craftsmanship Guarantee</h1> */}
               <div className="head flex items-start gap-3">
-                <img className='w-4 md:w-7 mt-1' src="public/assets/svgs/bullet-point.svg" alt="" />
+                <img className='w-4 md:w-7 mt-1' src="/assets/svgs/bullet-point.svg" alt="" />
                 <span className='text-lg sm:text-2xl md:text-3xl font-bold gradient-text mb-3'>Generator installs meeting 42dB codes.</span>
               </div>
             </div>
@@ -40,7 +40,7 @@ const WCUAbout = () => {
             <div className="g4 flex flex-col pl-0 md:pl-10">
               {/* <h1 className='text-lg sm:text-2xl md:text-3xl font-bold text-[var(--primary)] mb-3'>Respect for Your Time</h1> */}
               <div className="head flex items-start gap-3">
-                <img className='w-4 md:w-7 mt-1' src="public/assets/svgs/bullet-point.svg" alt="" />
+                <img className='w-4 md:w-7 mt-1' src="/assets/svgs/bullet-point.svg" alt="" />
                 <span className='text-lg sm:text-2xl md:text-3xl font-bold gradient-text mb-3'>EV chargers in tight garages.</span>
               </div>
             </div>

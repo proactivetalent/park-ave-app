@@ -18,14 +18,14 @@ const Main = () => {
                     <p className='w-full md:w-md mb-3 font-medium'>We modernize NYC homes and businesses by replacing outdated wiring, upgrading panels, and designing systems tailored to renovated kitchens, baths, and living spaces. Our expertise in navigating plaster walls, pre-war infrastructure, and DOB permit requirements ensures your project meets strict city codes while delivering seamless, invisible power where you need it most. Future-proof your investment with safety-certified renovations.</p>
                 </div>
                 <div className="left relative md:w-1/2 flex justify-center items-center mt-4 md:mt-0">
-                    <img className="w-full max-w-xs md:max-w-md" src="/public/assets/home/f1.png" alt="" />
+                    <img className="w-full max-w-xs md:max-w-md" src="/assets/home/f1.png" alt="" />
                 </div>
             </div>
 
             {/* Feature 2 */}
             <div className="f2 flex flex-col md:flex-row justify-evenly gap-6 md:gap-10 mb-10 w-full">
                 <div className="left relative md:w-1/2 flex justify-center items-center mb-4 md:mb-0">
-                    <img className="w-full max-w-xs md:max-w-md" src="/public/assets/home/f2.png" alt="" />
+                    <img className="w-full max-w-xs md:max-w-md" src="/assets/home/f2.png" alt="" />
                 </div>
                 <div className="right md:w-1/2 flex flex-col justify-center items-start">
                     <h1 className='text-xl sm:text-2xl md:text-4xl 2xl:text-5xl font-bold w-full md:w-md gradient-text mb-2 uppercase'>Installations & upgrades</h1>
@@ -42,14 +42,14 @@ const Main = () => {
                     <p className='w-full md:w-md mb-3 font-medium'>Don't risk fines or fires. Our certified electricians resolve NYC Electrical Code violations (ECB/DOB), install hardwired smoke/CO detectors per Local Law 157, and remediate knob-and-tube or aluminum wiring risks. From grounding repairs to emergency lighting inspections, we provide documentation-ready solutions that keep properties compliant and occupants safe.</p>
                 </div>
                 <div className="left relative md:w-1/2 flex justify-center items-center mt-4 md:mt-0">
-                    <img className="w-full max-w-xs md:max-w-md" src="/public/assets/home/f3.png" alt="" />
+                    <img className="w-full max-w-xs md:max-w-md" src="/assets/home/f3.png" alt="" />
                 </div>
             </div>
 
             {/* Feature 4 */}
             <div className="f4 flex flex-col md:flex-row justify-evenly gap-6 md:gap-10 mb-10 w-full">
                 <div className="left relative md:w-1/2 flex justify-center items-center mb-4 md:mb-0">
-                    <img className="w-full max-w-xs md:max-w-md" src="/public/assets/home/f4.png" alt="" />
+                    <img className="w-full max-w-xs md:max-w-md" src="/assets/home/f4.png" alt="" />
                 </div>
                 <div className="right md:w-1/2 flex flex-col justify-center items-start">
                     <h1 className='text-xl sm:text-2xl md:text-4xl 2xl:text-5xl font-bold w-full md:w-lg gradient-text mb-2'>TROUBLESHOOTING & REPAIRS</h1>
