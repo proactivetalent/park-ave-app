@@ -49,6 +49,15 @@ app.get('/', (req, res) => {
   res.send('Backend is running!');
 });
 
+app.use((req, res, next) => {
+  console.log('UNMATCHED ROUTE:', req.method, req.path);
+  next();
+});
+
+app.all('*', (req, res) => {
+  res.status(404).send('Route not found');
+});
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
