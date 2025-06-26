@@ -28,8 +28,10 @@ const Footer = () => {
                         }>Contact us</NavLink>
                     </div>
                     <div className="info flex flex-col items-center md:items-start mb-4 md:mb-0 w-full md:w-auto">
-                        <span className='font-semibold text-[16px]'>+1 (212) 832-3109</span>
-                        <span className='font-semibold text-[16px]'>info@parkaveelectrical.com</span>
+                        {/* <span className='font-semibold text-[16px]'>+1 (212) 832-3109</span> */}
+                        <a href="tel:+12128323109" className="font-semibold text-[16px]">+1 (212) 832-3109</a>
+                        <a href="mailto:info@parkaveelectrical.com" className="font-semibold text-[16px]">info@parkaveelectrical.com</a>
+                        {/* <span className='font-semibold text-[16px]'>info@parkaveelectrical.com</span> */}
                         <span className='font-semibold text-[16px]'>parkavaelectrical.com</span>
                         <span className='font-semibold text-[16px] text-center md:text-left'>2 Park Ave 29th Fl, New York, NY 10016</span>
                     </div>

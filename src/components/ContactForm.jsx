@@ -18,7 +18,7 @@ const Form = () => {
 
             <div className="ctas flex flex-col md:flex-row justify-center gap-5 my-10 md:my-20 px-4 md:px-0">
                 <a href="mailto:info@parkaveelectrical.com" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-4 px-8 md:px-14 focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Email: info@parkaveelectrical.com</a>
-                <a href="tel:+16461234567" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-4 px-8 md:px-14 w-full md:w-auto justify-center focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Call Now: (646) 123-4567</a>
+                <a href="tel:+12128323109" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-4 px-8 md:px-14 w-full md:w-auto justify-center focus:outline-none hover:bg-red-900 rounded-4xl text-lg md:text-2xl mt-4 md:mt-4 text-center">Call Now: +1 (212) 832-3109</a>
             </div>
 
             <div className="locations flex flex-col md:flex-row justify-evenly my-10 md:my-30 w-[80vw] m-auto px-4 md:px-0">

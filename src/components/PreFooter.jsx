@@ -39,7 +39,7 @@ const PreFooter = () => {
             <li>Staten Island</li>
           </ol>
           <p className='text-base sm:text-lg md:text-2xl font-semibold mb-5 text-[var(--primary)] text-center md:text-left'>24/7 EMERGENCY ELECTRICAL SERVICE<br /> Dangerous sparks? Power outages?<br /> We dispatch NYC-certified technicians</p>
-          <a href="tel:+16461234567" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-3 px-8 md:py-4 md:px-14 focus:outline-none rounded-4xl text-lg md:text-2xl mt-4">Call Now: (646) 123-4567</a>
+          <a href="tel:+12128323109" className="inline-flex items-center gradient-button font-semibold text-white border-0 py-3 px-8 md:py-4 md:px-14 focus:outline-none rounded-4xl text-lg md:text-2xl mt-4">Call Now: +1 (212) 832-3109</a>
         </div>
       </div>
     </div>
