@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Form = () => {
     return (
-        <div className='overflow-hidden'>
+        <div id="contact-form" className='overflow-hidden'>
             <div className='w-[80vw] m-auto my-10 flex flex-col md:flex-row px-4 md:px-0'>
                 <div className="info flex flex-col md:flex-row gap-6 md:gap-10 w-full">
                     <div className="content w-full md:w-[40%] flex flex-col items-center md:items-start mb-6 md:mb-0">

@@ -41,7 +41,7 @@ const MainServices = () => {
                 </div>
             </div>
             <div className="flex justify-center my-10 md:my-20 px-4">
-                <Link to="/contact" className="w-full md:w-auto inline-flex items-center justify-center gradient-button font-bold text-lg md:text-[24px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4 text-center">Transform Your Space with Complimentary Consultation</Link>
+                <Link to="/contact#contact-form" className="w-full md:w-auto inline-flex items-center justify-center gradient-button font-bold text-lg md:text-[24px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4 text-center">Transform Your Space with Complimentary Consultation</Link>
             </div>
 
             <div className="installation installation-bg-rotate w-full mt-10 px-4 py-10">
@@ -92,7 +92,7 @@ const MainServices = () => {
                     <div className="right w-full md:w-1/2 flex flex-col justify-center items-center gap-5 mt-8 md:mt-0">
                         <img className='w-full md:w-md max-w-xs md:max-w-none' src="/assets/service/s1.png" alt="" />
                         <p className='text-base md:text-[20px] font-semibold text-white text-center'>"70% of NYC electrical fires originate in outdated panels. Protect your property today."</p>
-                        <Link to="/contact" className="w-full md:w-auto inline-flex items-center justify-center bg-white font-bold text-base md:text-[20px] text-black border-0 py-2 px-6 md:px-9 focus:outline-none hover:bg-gray-300 rounded-lg mt-4 md:mt-4 text-center">Schedule Your Safety Upgrade Assessment</Link>
+                        <Link to="/contact#contact-form" className="w-full md:w-auto inline-flex items-center justify-center bg-white font-bold text-base md:text-[20px] text-black border-0 py-2 px-6 md:px-9 focus:outline-none hover:bg-gray-300 rounded-lg mt-4 md:mt-4 text-center">Schedule Your Safety Upgrade Assessment</Link>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const HeroServices = () => {
                     <h1 className="relative z-10 text-2xl sm:text-4xl md:text-[64px] 2xl:text-[64px] font-bold text-white">OUR SERVICES</h1>
                     <p className='relative z-10 text-white w-full md:w-2/3 font-medium text-base sm:text-xl md:text-2xl text-center'>Expert Renovations & Installations Licensed Master Electricians Serving All 5 Boroughs. "Transforming outdated wiring into safe, code-compliant power systems for NYC homes and businesses.
                     </p>
-                    <Link to="/contact" className="inline-flex items-center text-black font-bold gradient-button border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg text-base sm:text-xl md:text-[24px] mt-6 md:mt-6">GET YOUR FREE QUOTE</Link>
+                    <Link to="/contact#contact-form" className="inline-flex items-center text-black font-bold gradient-button border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg text-base sm:text-xl md:text-[24px] mt-6 md:mt-6">GET YOUR FREE QUOTE</Link>
                 </div>
             </div>
         </div>

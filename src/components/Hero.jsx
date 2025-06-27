@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1 className="relative z-10 text-2xl sm:text-3xl md:text-5xl font-extrabold text-white text-center md:text-left">NYC's TRUSTED ELECTRICAL RENOVATION & INSTALLATION EXPERTS</h1>
                     <p className='leading-tight w-full mt-2 text-base sm:text-lg md:text-2xl text-center md:text-left'>Licensed Master Electricians Delivering Safety, Code Compliance & Precision Craftsmanship for Homes & Businesses
                     </p>
-                    <Link to="/contact" className="inline-flex md:inline-flex items-center justify-center gradient-button font-bold text-black border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg text-lg md:text-2xl mt-4 w-full md:w-auto">GET YOUR FREE QUOTE
+                    <Link to="/contact#contact-form" className="inline-flex md:inline-flex items-center justify-center gradient-button font-bold text-black border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg text-lg md:text-2xl mt-4 w-full md:w-auto">GET YOUR FREE QUOTE
                     </Link>
                 </div>
             </div>

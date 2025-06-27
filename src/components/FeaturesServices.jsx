@@ -24,7 +24,7 @@ const FeaturesServices = () => {
         </div>
         <div className="bottom text-center mt-8 md:mt-10">
           <p className='text-base sm:text-xl md:text-2xl font-semibold w-full md:w-[60vw] m-auto gradient-text'>"Our violation correction rate: 100% first-pass approval with NYC Department of Buildings."</p>
-          <Link to="/contact" className="inline-flex items-center gradient-button font-bold text-base md:text-[20px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4">Request Code Compliance Audit</Link>
+          <Link to="/contact#contact-form" className="inline-flex items-center gradient-button font-bold text-base md:text-[20px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4">Request Code Compliance Audit</Link>
         </div>
         <div className="sep-line flex justify-center ">
           <div className="w-full md:w-[50vw] h-[2px] bg-[var(--primary)] my-8 md:my-16"></div>
@@ -51,7 +51,7 @@ const FeaturesServices = () => {
         </div>
         <div className="bottom text-center mt-8 md:mt-10">
           <p className='text-base sm:text-xl md:text-2xl font-semibold w-full md:w-[60vw] m-auto gradient-text'>"Our violation correction rate: 100% first-pass approval with NYC Department of Buildings."</p>
-          <Link to="/contact" className="inline-flex items-center gradient-button font-bold text-base md:text-[20px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4">Call Now for Emergency Repair</Link>
+          <Link to="/contact#contact-form" className="inline-flex items-center gradient-button font-bold text-base md:text-[20px] text-white border-0 py-2 px-6 md:px-9 focus:outline-none rounded-lg mt-4 md:mt-4">Call Now for Emergency Repair</Link>
         </div>
         <div className="sep-line flex justify-center ">
           <div className="w-full md:w-[50vw] h-[2px] bg-[var(--primary)] my-8 md:my-16"></div>
