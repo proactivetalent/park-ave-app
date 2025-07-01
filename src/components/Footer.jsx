@@ -52,7 +52,6 @@ const Footer = () => {
                     <div className="right text-gray-300 flex flex-col md:flex-row gap-2 md:gap-5 text-center md:text-left">
                         <Link to="/privacypolicy">Privacy Policy</Link>
                         <Link to="/terms">Terms & Conditions</Link>
-                        <span>Cookie Policy</span>
                     </div>
                 </div>
             </footer>
