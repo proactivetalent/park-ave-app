@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -50,8 +50,8 @@ const Footer = () => {
                 <div className="footer-end flex flex-col md:flex-row justify-between items-center py-8 md:py-16 px-4 md:px-16 gap-4 md:gap-0">
                     <div className="left text-gray-300 text-center md:text-left">© 2025 Park AVA Electrical . All rights reserved</div>
                     <div className="right text-gray-300 flex flex-col md:flex-row gap-2 md:gap-5 text-center md:text-left">
-                        <span>Privacy Policy</span>
-                        <span>Terms of Service</span>
+                        <Link to="/privacypolicy">Privacy Policy</Link>
+                        <Link to="/terms">Terms & Conditions</Link>
                         <span>Cookie Policy</span>
                     </div>
                 </div>

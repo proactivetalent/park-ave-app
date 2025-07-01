@@ -5,6 +5,8 @@ import ContactPage from './components/ContactPage'
 import HomePage from './components/HomePage'
 import ServicesPage from './components/ServicesPage'
 import AboutPage from './components/AboutPage'
+import PrivacyPolicyPage from './components/PrivacyPolicyPage'
+import TermsPage from './components/TermsPage'
 
 
 function App() {
@@ -26,6 +28,14 @@ function App() {
     {
       path: '/contact',
       element: <><ContactPage/></>
+    },
+    {
+      path: '/privacypolicy',
+      element: <><PrivacyPolicyPage/></>
+    },
+    {
+      path: '/terms',
+      element: <><TermsPage/></>
     }
   ])
 

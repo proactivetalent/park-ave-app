@@ -44,7 +44,7 @@ const Header = () => {
                         <NavLink to="/services" className={({ isActive }) =>
                             "mr-8 text-[20px] text-black cursor-pointer transition-transform duration-300 hover:scale-110" +
                             (isActive ? " underline decoration-2 underline-offset-8" : "")
-                        }>Service</NavLink>
+                        }>Services</NavLink>
                         <NavLink to="/about" className={({ isActive }) =>
                             "mr-8 text-[20px] text-black cursor-pointer transition-transform duration-300 hover:scale-110" +
                             (isActive ? " underline decoration-2 underline-offset-8" : "")
@@ -71,7 +71,7 @@ const Header = () => {
                             <NavLink to="/services" onClick={() => setMenuOpen(false)} className={({ isActive }) =>
                                 "text-[20px] text-[var(--primary)] py-2 w-full" +
                                 (isActive ? " underline decoration-2 underline-offset-8" : "")
-                            }>Service</NavLink>
+                            }>Services</NavLink>
                             <NavLink to="/about" onClick={() => setMenuOpen(false)} className={({ isActive }) =>
                                 "text-[20px] text-[var(--primary)] py-2 w-full" +
                                 (isActive ? " underline decoration-2 underline-offset-8" : "")
