@@ -7,6 +7,7 @@ import ServicesPage from './components/ServicesPage'
 import AboutPage from './components/AboutPage'
 import PrivacyPolicyPage from './components/PrivacyPolicyPage'
 import TermsPage from './components/TermsPage'
+import Layout from './components/Layout'
 
 
 function App() {
@@ -15,27 +16,27 @@ function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <><HomePage/></>
+      element: <Layout><HomePage/></Layout>
     },
     {
       path: '/services',
-      element: <><ServicesPage/></>
+      element: <Layout><ServicesPage/></Layout>
     },
     {
       path: '/about',
-      element: <><AboutPage/></>
+      element: <Layout><AboutPage/></Layout>
     },
     {
       path: '/contact',
-      element: <><ContactPage/></>
+      element: <Layout><ContactPage/></Layout>
     },
     {
       path: '/privacypolicy',
-      element: <><PrivacyPolicyPage/></>
+      element: <Layout><PrivacyPolicyPage/></Layout>
     },
     {
       path: '/terms',
-      element: <><TermsPage/></>
+      element: <Layout><TermsPage/></Layout>
     }
   ])
 
