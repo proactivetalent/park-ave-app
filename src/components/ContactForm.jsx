@@ -52,6 +52,7 @@ const ContactForm = () => {
     });
     const [errors, setErrors] = React.useState({});
     const [submitted, setSubmitted] = React.useState(false);
+    const [loading, setLoading] = React.useState(false);
 
     const validate = () => {
         const errs = {};
@@ -76,26 +77,29 @@ const ContactForm = () => {
         const errs = validate();
         setErrors(errs);
         if (Object.keys(errs).length === 0) {
-          try {
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/send-email`, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(form),
-            });
-            if (response.ok) {
-              setSubmitted(true);
-            } else {
-              setSubmitted(false);
-              alert('Failed to send message. Please try again later.');
+            setLoading(true);
+            try {
+                const response = await fetch(`${import.meta.env.VITE_API_URL}/send-email`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(form),
+                });
+                if (response.ok) {
+                    setSubmitted(true);
+                    setForm({ name: '', surname: '', email: '', message: '' });
+                } else {
+                    setSubmitted(false);
+                    alert('Failed to send message. Please try again later.');
+                }
+            } catch (error) {
+                setSubmitted(false);
+                alert('Failed to send message. Please try again later.');
             }
-          } catch (error) {
-            setSubmitted(false);
-            alert('Failed to send message. Please try again later.');
-          }
+            setLoading(false);
         } else {
-          setSubmitted(false);
+            setSubmitted(false);
         }
-      };
+    };
 
     return (
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 bg-white p-4 md:p-6 rounded-lg shadow-md w-full md:w-[40vw] max-w-[80%] md:max-w-none border-1 border-gray-300">
@@ -145,7 +149,16 @@ const ContactForm = () => {
                     placeholder='Message'
                 />
             </label>
-            <button type="submit" className="bg-[var(--primary)] text-white font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition">Submit</button>
+            <button
+                type="submit"
+                className="bg-[var(--primary)] text-white font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition"
+                disabled={loading}
+            >
+                {loading ? "Submitting..." : "Submit"}
+            </button>
+            {loading && (
+                <div className="text-blue-600 font-semibold mt-2">Submitting form...</div>
+            )}
             {submitted && <div className="text-green-600 font-semibold mt-2">Form submitted successfully!</div>}
         </form>
     );
