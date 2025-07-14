@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 app.set('trust proxy', true);
 app.use(cors({
-  origin: 'https://parkaveelectrical.com', // your frontend domain
+  origin: ['https://parkaveelectrical.com', 'https://www.parkaveelectrical.com'], // your frontend domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
