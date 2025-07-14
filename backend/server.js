@@ -8,16 +8,14 @@ const app = express();
 app.set('trust proxy', true);
 app.use(express.json());
 
-// define allowed origins
 const allowedOrigins = [
   'https://parkaveelectrical.com',
   'https://www.parkaveelectrical.com'
 ];
 
-// apply CORS to all routes
 app.use(cors({
   origin: function(origin, callback){
-    if (!origin) return callback(null, true); // allow non-browser tools
+    if (!origin) return callback(null, true); // allow non-browser tools / curl
     if (allowedOrigins.includes(origin)) {
       return callback(null, true);
     } else {
@@ -28,12 +26,6 @@ app.use(cors({
   credentials: true
 }));
 
-// handle preflight globally
-app.options('*', cors({
-  origin: allowedOrigins,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  credentials: true
-}));
 
 
 app.use((req, res, next) => {
