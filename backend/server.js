@@ -6,12 +6,25 @@ import dotenv from 'dotenv';
 dotenv.config();
 const app = express();
 app.set('trust proxy', true);
+app.use(express.json());
+
+const allowedOrigins = ['https://parkaveelectrical.com', 'https://www.parkaveelectrical.com'];
+
 app.use(cors({
-  origin: ['https://parkaveelectrical.com', 'https://www.parkaveelectrical.com'], // your frontend domain
+  origin: function(origin, callback){
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error('Not allowed by CORS'));
+    }
+  },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
-app.use(express.json());
+
+// Also handle preflight
+app.options('*', cors());
 
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.path}`);
